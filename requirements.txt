@@ -4,4 +4,4 @@ uvicorn==0.22.0
 openai==0.27.4
 python-dotenv==1.0.0
 langchain
-langchain_community==0.1.0
+langchain_community
