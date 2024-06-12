@@ -3,5 +3,5 @@ pydantic==1.10.2
 uvicorn==0.22.0
 openai==0.27.4
 python-dotenv==1.0.0
-langchain==0.4.1
+langchain
 langchain_community==0.1.0
