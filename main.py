@@ -50,8 +50,6 @@ class CorrectionResponse(BaseModel):
 
 
 
-input_paragraph = "step lader approach gradualy escalate diet therapy. This aproach has been creted keepiing sustainability in mind with simpler and traditional diets at start and increasingly restrictive diets at subsequent escalations. Diet ladder is being successsfully used at oour practice for the last two years with good patient adherence and satisfaction. Numerous meta-analyses have tried compare diet and ascertain the best diet, but all diets seem to work almost equally in the long term in unselected populations (Fogelholm, Anderssen, Gunnarsdottir, Lahti-Koski, 2012). Therefore, we believe, each individual would respond positively to one of the dietary approaches and the diet ladder lays down a practical framework to find that approach."
-
 parser = PydanticOutputParser(pydantic_object=CorrectionResponse)
 # Create the ChatOpenAI object
 llm = ChatOpenAI(temperature=0.0, model_name="gpt-4-turbo-2024-04-09") # older model gpt-3.5-turbo
