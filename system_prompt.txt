@@ -9,8 +9,11 @@ input_paragraph = " Wood is a natural material used in indoor environment. It is
 
 Strictly follow the output format. I always want the output in JSON format like this:
 
-{
 
+{
+    "status": true,
+    "message": "Success",
+    "input": "Wood is a natural material used in indoor environment. ",
     "response": [
         {
             "sentence": "Wood is a natural material used in indoor environment.",
@@ -56,8 +59,10 @@ Strictly follow the output format. I always want the output in JSON format like 
                 }
             ]
         }
-    ]
-
+    ],
+    "language": "US",
+    "style_guide": "ACS"
 } 
 
 
+   
