@@ -51,8 +51,7 @@ async def correct_grammar(input: ParagraphInput):
             "system": SYSTEM_PROMPT,
             "input_paragraph": input.paragraph
         })
-        #return {"result": json.loads(result)}
-        return json.loads(result)
+        return {"result": json.loads(result)}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
